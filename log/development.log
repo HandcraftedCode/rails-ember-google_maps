@@ -2401,3 +2401,156 @@ Processing by GigsController#index as JSON
   [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
   [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
 Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 23:53:24 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (3.3ms)
+Compiled app.css  (3ms)  (pid 438)
+Compiled bootstrap_and_overrides.css  (2964ms)  (pid 438)
+Compiled mainstyles.css  (21ms)  (pid 438)
+Compiled scaffolds.css  (11ms)  (pid 438)
+Compiled application.css  (3234ms)  (pid 438)
+Compiled jquery.js  (1ms)  (pid 438)
+Compiled jquery_ujs.js  (0ms)  (pid 438)
+Compiled bootstrap-transition.js  (0ms)  (pid 438)
+Compiled bootstrap-affix.js  (0ms)  (pid 438)
+Compiled bootstrap-alert.js  (0ms)  (pid 438)
+Compiled bootstrap-button.js  (0ms)  (pid 438)
+Compiled bootstrap-carousel.js  (0ms)  (pid 438)
+Compiled bootstrap-collapse.js  (0ms)  (pid 438)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 438)
+Compiled bootstrap-modal.js  (0ms)  (pid 438)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 438)
+Compiled bootstrap-tab.js  (0ms)  (pid 438)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 438)
+Compiled bootstrap-popover.js  (0ms)  (pid 438)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 438)
+Compiled bootstrap.js  (396ms)  (pid 438)
+Compiled jquery.ui.core.js  (0ms)  (pid 438)
+Compiled jquery.ui.widget.js  (0ms)  (pid 438)
+Compiled jquery.ui.accordion.js  (73ms)  (pid 438)
+Compiled jquery.ui.position.js  (0ms)  (pid 438)
+Compiled jquery.ui.menu.js  (28ms)  (pid 438)
+Compiled jquery.ui.autocomplete.js  (79ms)  (pid 438)
+Compiled jquery.ui.button.js  (2ms)  (pid 438)
+Compiled jquery.ui.datepicker.js  (1ms)  (pid 438)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 438)
+Compiled jquery.ui.draggable.js  (30ms)  (pid 438)
+Compiled jquery.ui.resizable.js  (30ms)  (pid 438)
+Compiled jquery.ui.dialog.js  (95ms)  (pid 438)
+Compiled jquery.ui.droppable.js  (4ms)  (pid 438)
+Compiled jquery.ui.effect.js  (0ms)  (pid 438)
+Compiled jquery.ui.effect-blind.js  (16ms)  (pid 438)
+Compiled jquery.ui.effect-bounce.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-clip.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-drop.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-explode.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-fade.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-fold.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-highlight.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-pulsate.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-scale.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-shake.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-slide.js  (1ms)  (pid 438)
+Compiled jquery.ui.effect-transfer.js  (1ms)  (pid 438)
+Compiled jquery.ui.progressbar.js  (2ms)  (pid 438)
+Compiled jquery.ui.selectable.js  (3ms)  (pid 438)
+Compiled jquery.ui.slider.js  (3ms)  (pid 438)
+Compiled jquery.ui.sortable.js  (3ms)  (pid 438)
+Compiled jquery.ui.spinner.js  (3ms)  (pid 438)
+Compiled jquery.ui.tabs.js  (2ms)  (pid 438)
+Compiled jquery.ui.tooltip.js  (3ms)  (pid 438)
+Compiled jquery.ui.all.js  (1017ms)  (pid 438)
+Compiled vendor/handlebars-rc3.js  (0ms)  (pid 438)
+Compiled vendor/ember-1.0.0-rc.1.js  (8ms)  (pid 438)
+Compiled vendor/ember-data.js  (20ms)  (pid 438)
+Compiled lib/ember-forms.js  (0ms)  (pid 438)
+Compiled lib/jquery.cookie.js  (0ms)  (pid 438)
+Compiled lib/jquery.geocomplete.js  (0ms)  (pid 438)
+Compiled lib/jquery.sidr.min.js  (0ms)  (pid 438)
+Compiled shortcuts.js  (229ms)  (pid 438)
+Compiled settings.js  (162ms)  (pid 438)
+Compiled store.js  (0ms)  (pid 438)
+Compiled models/gig.js  (0ms)  (pid 438)
+Compiled models/user.js  (129ms)  (pid 438)
+Compiled controllers/catsfilter_controller.js  (0ms)  (pid 438)
+Compiled controllers/controllers.js  (132ms)  (pid 438)
+Compiled controllers/currentUserController.js  (0ms)  (pid 438)
+Compiled controllers/edit_controller.js  (0ms)  (pid 438)
+Compiled controllers/filter_controller.js  (0ms)  (pid 438)
+Compiled controllers/gig_controller.js  (0ms)  (pid 438)
+Compiled controllers/gigs_controller.js  (0ms)  (pid 438)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 438)
+Compiled controllers/map_controller.js  (0ms)  (pid 438)
+Compiled views/application_view.js  (0ms)  (pid 438)
+Compiled views/categories_view.js  (0ms)  (pid 438)
+Compiled views/catsfilter_view.js  (0ms)  (pid 438)
+Compiled views/components.js  (126ms)  (pid 438)
+Compiled views/datePicker.js  (0ms)  (pid 438)
+Compiled views/filter_view.js  (0ms)  (pid 438)
+Compiled views/gig_edit_view.js  (0ms)  (pid 438)
+Compiled views/gig_view.js  (0ms)  (pid 438)
+Compiled views/gigs_new_view.js  (0ms)  (pid 438)
+Compiled views/gigs_view.js  (0ms)  (pid 438)
+Compiled views/map_view.js  (0ms)  (pid 438)
+Compiled views/preview_upload_image.js  (0ms)  (pid 438)
+Compiled state_managers.js  (146ms)  (pid 438)
+Compiled helpers/authentication_helper.js  (180ms)  (pid 438)
+Compiled helpers/init_helper.js  (152ms)  (pid 438)
+Compiled templates/_categories.js  (168ms)  (pid 438)
+Compiled templates/_catsfilter.js  (163ms)  (pid 438)
+Compiled templates/_edit_fields.js  (179ms)  (pid 438)
+Compiled templates/_gig_edit_fields.js  (194ms)  (pid 438)
+Compiled templates/about.js  (141ms)  (pid 438)
+Compiled templates/application.js  (157ms)  (pid 438)
+Compiled templates/comps/menu_item.js  (157ms)  (pid 438)
+Compiled templates/filter.js  (143ms)  (pid 438)
+Compiled templates/gig.js  (146ms)  (pid 438)
+Compiled templates/gigs.js  (203ms)  (pid 438)
+Compiled templates/gigs/new.js  (176ms)  (pid 438)
+Compiled templates/home.js  (204ms)  (pid 438)
+Compiled templates/login.js  (183ms)  (pid 438)
+Compiled templates/map.js  (182ms)  (pid 438)
+Compiled templates/navbar.js  (154ms)  (pid 438)
+Compiled templates/registration.js  (148ms)  (pid 438)
+Compiled templates/sidebar.js  (138ms)  (pid 438)
+Compiled templates/welcome_msg.js  (137ms)  (pid 438)
+Compiled router.js  (127ms)  (pid 438)
+Compiled routes/application_route.js  (114ms)  (pid 438)
+Compiled routes/gig_route.js  (0ms)  (pid 438)
+Compiled routes/home_route.js  (0ms)  (pid 438)
+Compiled ember_app.js  (6223ms)  (pid 438)
+Compiled application.js  (7879ms)  (pid 438)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 11814ms (Views: 11808.7ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 23:53:38 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.4ms)[0m  SELECT "gigs".* FROM "gigs" 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/users/sign_out.json" for 127.0.0.1 at 2013-05-31 23:53:44 +0100
+Processing by SessionsController#destroy as JSON
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 23:53:46 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 23:53:47 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.1ms)

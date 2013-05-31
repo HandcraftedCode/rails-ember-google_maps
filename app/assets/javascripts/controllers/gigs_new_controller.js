@@ -37,7 +37,12 @@ clearForm: function() {
    // check for existence of previous Gig
    
    	var zx = $.cookie('tharGig')
-    var z = JSON.parse(zx);
+    try {var z = JSON.parse(zx);}
+    catch (err)
+    	{
+	    	console.log('the cookie is undefined')
+	    	var z = null;
+    	};
     console.log('z is ' + z);
     if(z !== null) {
     //if it exists, set its properties to the current model and commit the transaction with the new user_id
