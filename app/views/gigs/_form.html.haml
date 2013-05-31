@@ -1,0 +1,58 @@
+= form_for @gig do |f|
+  - if @gig.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@gig.errors.count, "error")} prohibited this gig from being saved:"
+      %ul
+        - @gig.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :lat
+    = f.text_field :lat
+  .field
+    = f.label :lng
+    = f.text_field :lng
+  .field
+    = f.label :start
+    = f.text_field :start
+  .field
+    = f.label :end
+    = f.text_field :end
+  .field
+    = f.label :email
+    = f.text_field :email
+  .field
+    = f.label :notes
+    = f.text_area :notes
+  .field
+    = f.label :external_url
+    = f.text_field :external_url
+  .field
+    = f.label :user_is_going
+    = f.check_box :user_is_going
+  .field
+    = f.label :ticket_url
+    = f.text_field :ticket_url
+  .field
+    = f.label :promoted
+    = f.check_box :promoted
+  .field
+    = f.label :cat1
+    = f.text_field :cat1
+  .field
+    = f.label :cat2
+    = f.text_field :cat2
+  .field
+    = f.label :pricelower
+    = f.text_field :pricelower
+  .field
+    = f.label :pricehigher
+    = f.text_field :pricehigher
+  .field
+    = f.label :user
+    = f.text_field :user
+  .actions
+    = f.submit 'Save'

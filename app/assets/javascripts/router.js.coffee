@@ -3,7 +3,7 @@
 
 App.Router.map ->
   @route "home"
-  @route "help"
+  @route "about"
   @route "login"
   @route "registration"
 

@@ -2,10 +2,14 @@
 %html
   %head
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-      %title= content_for?(:title) ? yield(:title) : "Ember Rails Devise"
-      %meta{:content => content_for?(:description) ? yield(:description) : "Ember Rails Devise", :name => "description"}
+      %title= content_for?(:title) ? yield(:title) : "Gigggs"
+      %meta{:content => content_for?(:description) ? yield(:description) : "Events for Everyone", :name => "description"}
         = stylesheet_link_tag "application", :media => "all"
         = javascript_include_tag "application"
+        %script{:type => "text/javascript",
+        :src => "https://maps.googleapis.com/maps/api/js?key=AIzaSyB3QM0p3_LLVsNLuWmpJW5UTDLU8DZ88yU&sensor=true&amp;libraries=places"}
+        %script{:type => "text/javascript",
+        :src => "http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"}
         = csrf_meta_tags
         = yield(:head)
   %body

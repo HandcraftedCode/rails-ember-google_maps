@@ -11,7 +11,30 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130203231022) do
+ActiveRecord::Schema.define(:version => 20130531153358) do
+
+  create_table "gigs", :force => true do |t|
+    t.string   "name"
+    t.float    "lat"
+    t.float    "lng"
+    t.string   "start"
+    t.string   "end"
+    t.string   "email"
+    t.text     "notes"
+    t.string   "external_url"
+    t.boolean  "user_is_going"
+    t.string   "ticket_url"
+    t.boolean  "promoted"
+    t.string   "cat1"
+    t.string   "cat2"
+    t.float    "pricelower"
+    t.float    "pricehigher"
+    t.integer  "user_id"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "gigs", ["user_id"], :name => "index_gigs_on_user_id"
 
   create_table "roles", :force => true do |t|
     t.string   "name"

@@ -1,0 +1,54 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @gig.name
+%p
+  %b Lat:
+  = @gig.lat
+%p
+  %b Lng:
+  = @gig.lng
+%p
+  %b Start:
+  = @gig.start
+%p
+  %b End:
+  = @gig.end
+%p
+  %b Email:
+  = @gig.email
+%p
+  %b Notes:
+  = @gig.notes
+%p
+  %b External url:
+  = @gig.external_url
+%p
+  %b User is going:
+  = @gig.user_is_going
+%p
+  %b Ticket url:
+  = @gig.ticket_url
+%p
+  %b Promoted:
+  = @gig.promoted
+%p
+  %b Cat1:
+  = @gig.cat1
+%p
+  %b Cat2:
+  = @gig.cat2
+%p
+  %b Pricelower:
+  = @gig.pricelower
+%p
+  %b Pricehigher:
+  = @gig.pricehigher
+%p
+  %b User:
+  = @gig.user
+
+= link_to 'Edit', edit_gig_path(@gig)
+\|
+= link_to 'Back', gigs_path

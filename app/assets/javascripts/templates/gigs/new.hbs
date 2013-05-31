@@ -1,0 +1,13 @@
+{{view}}
+<form {{action save on="submit"}} class="form-horizontal">
+
+  {{partial "gig_edit_fields"}}
+  <div id="creationButtons" class="form-actions">
+  	{{#if authenticated}}
+  		{{submitButton "Create"}}
+  	{{else}}
+  		<button class="btn" {{action doAuth}}>Create and Sign up</button>
+  	{{/if}}
+  	<button class="btn" {{action clearForm}}>Clear and start again</button> 
+  	</div>
+</form>

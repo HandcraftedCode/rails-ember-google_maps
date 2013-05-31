@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'ember-rails'
 gem "haml", ">= 3.1.7"
 gem "bootstrap-sass", ">= 2.2.2.0"
+gem 'jquery-ui-rails'
 
 gem "figaro", ">= 0.5.3"
 gem "thin", ">= 1.5.0"

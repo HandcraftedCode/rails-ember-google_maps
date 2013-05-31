@@ -1,0 +1,4 @@
+class Gig < ActiveRecord::Base
+  belongs_to :user
+  attr_accessible :cat1, :cat2, :email, :end, :external_url, :lat, :lng, :name, :notes, :pricehigher, :pricelower, :start, :ticket_url, :user_is_going, :user_id
+end

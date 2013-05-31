@@ -220,3 +220,2184 @@ Processing by SessionsController#destroy as JSON
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
 Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 13:41:06 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 234ms (Views: 233.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 13:41:07 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:37:05 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled scaffolds.css  (9ms)  (pid 93603)
+Compiled application.css  (58ms)  (pid 93603)
+Compiled models/user.js  (247ms)  (pid 93603)
+Compiled templates/help.js  (136ms)  (pid 93603)
+Compiled templates/login.js  (143ms)  (pid 93603)
+Compiled models/gig.js  (0ms)  (pid 93603)
+Compiled controllers/gig_controller.js  (0ms)  (pid 93603)
+Compiled controllers/gigs_controller.js  (0ms)  (pid 93603)
+Compiled views/gig_view.js  (0ms)  (pid 93603)
+Compiled views/gigs_view.js  (0ms)  (pid 93603)
+Compiled templates/gig.js  (135ms)  (pid 93603)
+Compiled templates/gigs.js  (133ms)  (pid 93603)
+Compiled routes/gig_route.js  (0ms)  (pid 93603)
+Compiled ember_app.js  (459ms)  (pid 93603)
+Compiled application.js  (6ms)  (pid 93603)
+Completed 200 OK in 1346ms (Views: 1345.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:39:59 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (29.5ms)
+Completed 200 OK in 202ms (Views: 201.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:42:48 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled routes/home_route.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (48ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 188ms (Views: 188.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:42:55 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:42:55 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 23ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:43:05 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled routes/home_route.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (9ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 194ms (Views: 193.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:43:27 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:44:02 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled models/gig.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (8ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 204ms (Views: 203.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:44:25 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled models/user.js  (127ms)  (pid 97783)
+Compiled ember_app.js  (44ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 330ms (Views: 329.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:45:19 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled controllers/gig_controller.js  (0ms)  (pid 97783)
+Compiled controllers/gigs_controller.js  (0ms)  (pid 97783)
+Compiled views/gig_view.js  (0ms)  (pid 97783)
+Compiled views/gigs_view.js  (0ms)  (pid 97783)
+Compiled routes/gig_route.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (8ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 177ms (Views: 176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:45:59 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled routes/home_route.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (8ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 163ms (Views: 162.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:46:21 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled routes/home_route.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (8ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 162ms (Views: 161.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:46:35 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled routes/home_route.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (12ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 160ms (Views: 159.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:47:17 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled routes/home_route.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (8ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 160ms (Views: 159.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:50:46 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 6ms
+
+Haml::Error - Invalid filter name ":javascript src="https://maps.googleapis.com/maps/api/js?key=aizasyb3qm0p3_llvsnluwmpjw5utdlu8dz88yu&sensor=true&amp;libraries=places"".:
+  (gem) haml-4.0.0/lib/haml/error.rb:51:in `initialize'
+  (gem) haml-4.0.0/lib/haml/parser.rb:436:in `filter'
+  (gem) haml-4.0.0/lib/haml/parser.rb:227:in `process_line'
+  (gem) haml-4.0.0/lib/haml/parser.rb:122:in `parse'
+  (gem) haml-4.0.0/lib/haml/engine.rb:66:in `initialize'
+  (gem) haml-4.0.0/lib/haml/template/plugin.rb:25:in `compile'
+  (gem) haml-4.0.0/lib/haml/template/plugin.rb:30:in `call'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:268:in `compile'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  (gem) activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/Sam/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  (gem) activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3760327997622580796__process_action__3886093364829034672__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__2126378601675019171__call__20955061397368349__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+
+
+Started POST "/__better_errors/70231298052860/variables" for 127.0.0.1 at 2013-05-31 16:50:46 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:52:39 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 4ms
+
+Haml::SyntaxError - Illegal nesting: nesting within plain text is illegal.:
+  (gem) haml-4.0.0/lib/haml/error.rb:51:in `initialize'
+  (gem) haml-4.0.0/lib/haml/parser.rb:256:in `plain'
+  (gem) haml-4.0.0/lib/haml/parser.rb:236:in `process_line'
+  (gem) haml-4.0.0/lib/haml/parser.rb:122:in `parse'
+  (gem) haml-4.0.0/lib/haml/engine.rb:66:in `initialize'
+  (gem) haml-4.0.0/lib/haml/template/plugin.rb:25:in `compile'
+  (gem) haml-4.0.0/lib/haml/template/plugin.rb:30:in `call'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:268:in `compile'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  (gem) activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/Sam/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  (gem) activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3760327997622580796__process_action__3886093364829034672__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__2126378601675019171__call__20955061397368349__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+
+
+Started POST "/__better_errors/70231300548920/variables" for 127.0.0.1 at 2013-05-31 16:52:39 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:54:08 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:54:56 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:55:04 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:56:34 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled templates/navbar.js  (246ms)  (pid 97783)
+Compiled router.js  (125ms)  (pid 97783)
+Compiled templates/about.js  (135ms)  (pid 97783)
+Compiled ember_app.js  (158ms)  (pid 97783)
+Compiled application.js  (8ms)  (pid 97783)
+Completed 200 OK in 787ms (Views: 786.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 16:59:59 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled templates/home.js  (236ms)  (pid 97783)
+Compiled routes/home_route.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (9ms)  (pid 97783)
+Compiled application.js  (6ms)  (pid 97783)
+Completed 200 OK in 465ms (Views: 464.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:00:09 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled routes/home_route.js  (0ms)  (pid 97783)
+Compiled ember_app.js  (9ms)  (pid 97783)
+Compiled application.js  (5ms)  (pid 97783)
+Completed 200 OK in 154ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:00:09 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::StatementInvalid - Could not find table 'gigs':
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/sqlite_adapter.rb:472:in `table_structure'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/sqlite_adapter.rb:346:in `columns'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/schema_cache.rb:12:in `block in initialize'
+  (gem) activerecord-3.2.12/lib/active_record/model_schema.rb:228:in `columns'
+  (gem) activerecord-3.2.12/lib/active_record/model_schema.rb:237:in `columns_hash'
+  (gem) activerecord-3.2.12/lib/active_record/locking/optimistic.rb:129:in `locking_enabled?'
+  (gem) activerecord-3.2.12/lib/active_record/relation.rb:170:in `exec_queries'
+  (gem) activerecord-3.2.12/lib/active_record/relation.rb:160:in `block in to_a'
+  (gem) activerecord-3.2.12/lib/active_record/explain.rb:33:in `logging_query_plan'
+  (gem) activerecord-3.2.12/lib/active_record/relation.rb:159:in `to_a'
+  (gem) activerecord-3.2.12/lib/active_record/relation/finder_methods.rb:159:in `all'
+  (gem) activerecord-3.2.12/lib/active_record/querying.rb:5:in `all'
+  app/controllers/gigs_controller.rb:5:in `index'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__925261164271352213__process_action__3886093364829034672__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__2126378601675019171__call__20955061397368349__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to DeviseCreateUsers (20130203231007)
+Migrating to AddNameToUsers (20130203231012)
+Migrating to RolifyCreateRoles (20130203231022)
+Migrating to CreateGigs (20130531153358)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "gigs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "lat" float, "lng" float, "start" varchar(255), "end" varchar(255), "email" varchar(255), "notes" text, "external_url" varchar(255), "user_is_going" boolean, "ticket_url" varchar(255), "promoted" boolean, "cat1" varchar(255), "cat2" varchar(255), "pricelower" float, "pricehigher" float, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_gigs_on_user_id" ON "gigs" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130531153358')
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:00:38 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 216ms (Views: 215.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:00:39 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:00:51 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.2ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:25:00 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled controllers/gig_controller.js  (0ms)  (pid 97940)
+Compiled controllers/gigs_controller.js  (0ms)  (pid 97940)
+Compiled views/gig_view.js  (0ms)  (pid 97940)
+Compiled views/gigs_view.js  (0ms)  (pid 97940)
+Compiled controllers/catsfilter_controller.js  (0ms)  (pid 97940)
+Compiled controllers/edit_controller.js  (0ms)  (pid 97940)
+Compiled controllers/filter_controller.js  (0ms)  (pid 97940)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 97940)
+Compiled controllers/map_controller.js  (0ms)  (pid 97940)
+Compiled views/categories_view.js  (0ms)  (pid 97940)
+Compiled views/catsfilter_view.js  (0ms)  (pid 97940)
+Compiled views/datePicker.js  (0ms)  (pid 97940)
+Compiled views/filter_view.js  (0ms)  (pid 97940)
+Compiled views/gig_edit_view.js  (0ms)  (pid 97940)
+Compiled views/gigs_new_view.js  (0ms)  (pid 97940)
+Compiled views/map_view.js  (0ms)  (pid 97940)
+Compiled templates/_gig_edit_fields.js  (289ms)  (pid 97940)
+Compiled templates/filter.js  (146ms)  (pid 97940)
+Compiled templates/gigs/new.js  (253ms)  (pid 97940)
+Compiled templates/map.js  (163ms)  (pid 97940)
+Compiled templates/sidebar.js  (143ms)  (pid 97940)
+Compiled ember_app.js  (1357ms)  (pid 97940)
+Compiled application.js  (9ms)  (pid 97940)
+Completed 200 OK in 1678ms (Views: 1677.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:25:03 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:25:37 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled controllers/gigs_controller.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (11ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 186ms (Views: 185.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:25:38 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.1ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:26:24 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled controllers/currentUserController.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (57ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 283ms (Views: 282.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:26:25 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:27:04 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.2ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:27:07 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:27:13 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.2ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:29:45 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled lib/ember-forms.js  (0ms)  (pid 97940)
+Compiled lib/jquery.cookie.js  (0ms)  (pid 97940)
+Compiled lib/jquery.geocomplete.js  (0ms)  (pid 97940)
+Compiled lib/jquery.sidr.min.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (86ms)  (pid 97940)
+Compiled application.js  (8ms)  (pid 97940)
+Completed 200 OK in 317ms (Views: 316.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:29:46 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:31:01 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled templates/_categories.js  (231ms)  (pid 97940)
+Compiled templates/_catsfilter.js  (142ms)  (pid 97940)
+Compiled templates/_edit_fields.js  (136ms)  (pid 97940)
+Compiled ember_app.js  (567ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 814ms (Views: 813.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:31:03 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.2ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:31:44 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled views/preview_upload_image.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (20ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 243ms (Views: 242.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:31:45 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:34:47 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (13ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 243ms (Views: 243.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:34:48 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.2ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:36:11 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled templates/gigs/new.js  (248ms)  (pid 97940)
+Compiled ember_app.js  (16ms)  (pid 97940)
+Compiled application.js  (6ms)  (pid 97940)
+Completed 200 OK in 475ms (Views: 474.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:36:13 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:37:00 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 31ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:37:01 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.2ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:41:43 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:41:44 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:44:05 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+ERROR: compiling _app_views_layouts_application_html_haml___533112957163028325_70174241859020 RAISED /Users/Sam/Documents/Development/GigggsProduction/ember-rails-devise-demo/app/views/layouts/application.html.haml:22: syntax error, unexpected ',', expecting =>
+));}\n</html>\n", -1, false);::Haml::Util.html_saf...
+                     ^
+/Users/Sam/Documents/Development/GigggsProduction/ember-rails-devise-demo/app/views/layouts/application.html.haml:22: syntax error, unexpected keyword_ensure, expecting tSTRING_DEND
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Sam/Documents/Development/GigggsProduction/ember-rails-devise-demo/app/views/layouts/application.html.haml:22: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+...uffer.upper if @haml_buffer;end;
+...                               ^
+/Users/Sam/Documents/Development/GigggsProduction/ember-rails-devise-demo/app/views/layouts/application.html.haml:25: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+Function body:           def _app_views_layouts_application_html_haml___533112957163028325_70174241859020(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true, :hyphenate_data_attrs=>true, :cdata=>false});_erbout = _hamlout.buffer;@output_buffer = output_buffer ||= ActionView::OutputBuffer.new rescue nil;;_hamlout.push_text("<!DOCTYPE html>\n<html>\n  <head>\n    <meta content='width=device-width, initial-scale=1.0' name='viewport'>\n      <title>#{_hamlout.adjust_tabs(4); 
+
+
+
+_hamlout.format_script_false_true_false_true_false_true_false((content_for?(:title) ? yield(:title) : "Gigggs"
+));}</title>\n      <meta#{_hamlout.attributes({}, nil, :content => content_for?(:description) ? yield(:description) : "Events for Everyone", :name => "description")}>\n        #{_hamlout.adjust_tabs(1); 
+_hamlout.format_script_false_false_false_true_false_true_false(( stylesheet_link_tag "application", :media => "all"
+));}\n        #{_hamlout.format_script_false_false_false_true_false_true_false(( javascript_include_tag "application"
+));}\n        <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB3QM0p3_LLVsNLuWmpJW5UTDLU8DZ88yU&amp;sensor=true&amp;amp;libraries=places' type='text/javascript'></script>\n        <script#{
+
+_hamlout.attributes({}, nil, :type => "text/javascript",
+:src => "http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false)}></script>\n        #{
+_hamlout.format_script_false_false_false_true_false_true_false(( csrf_meta_tags
+));}\n        #{_hamlout.format_script_false_false_false_true_false_true_false(( yield(:head)
+));}\n      </meta>\n    </meta>\n  </head>\n  <body>\n    #{_hamlout.adjust_tabs(-2); 
+_hamlout.format_script_false_false_false_true_false_true_false(( yield
+));}\n  </body>\n  #{_hamlout.adjust_tabs(-1); 
+_hamlout.format_script_false_false_false_false_false_true_false((find_and_preserve(Haml::Filters::Javascript.render_with_options(
+"App.ready = function() {
+  App.initApp(jQuery.parseJSON('#{current_user_json}'))
+}\n", _hamlout.options))
+));}\n</html>\n", -1, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `synchronize'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/Sam/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__440001274591738986__process_action__2673731070699258208__callbacks'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/warden-1.2.1/lib/warden/manager.rb:34:in `catch'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/warden-1.2.1/lib/warden/manager.rb:34:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__3643446669864166487__call__609636401778495168__callbacks'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/thin-1.5.0/lib/thin/connection.rb:79:in `catch'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/thin-1.5.0/lib/thin/connection.rb:54:in `process'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/eventmachine-1.0.0/lib/eventmachine.rb:187:in `run_machine'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/thin-1.5.0/lib/thin/server.rb:159:in `start'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/commands.rb:50:in `tap'
+/Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+script/rails:6:in `require'
+script/rails:6:in `<main>'
+Completed 500 Internal Server Error in 14ms
+
+SyntaxError - /Users/Sam/Documents/Development/GigggsProduction/ember-rails-devise-demo/app/views/layouts/application.html.haml:22: syntax error, unexpected ',', expecting =>
+));}\n</html>\n", -1, false);::Haml::Util.html_saf...
+                     ^
+/Users/Sam/Documents/Development/GigggsProduction/ember-rails-devise-demo/app/views/layouts/application.html.haml:22: syntax error, unexpected keyword_ensure, expecting tSTRING_DEND
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Sam/Documents/Development/GigggsProduction/ember-rails-devise-demo/app/views/layouts/application.html.haml:22: syntax error, unexpected keyword_end, expecting tSTRING_DEND
+...uffer.upper if @haml_buffer;end;
+...                               ^
+/Users/Sam/Documents/Development/GigggsProduction/ember-rails-devise-demo/app/views/layouts/application.html.haml:25: syntax error, unexpected keyword_end, expecting tSTRING_DEND:
+  app/views/layouts/application.html.haml:22:in `'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  (gem) activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/Sam/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  (gem) activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__440001274591738986__process_action__2673731070699258208__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__3643446669864166487__call__609636401778495168__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+
+
+Started POST "/__better_errors/70174220915820/variables" for 127.0.0.1 at 2013-05-31 17:44:05 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:44:21 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 84ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:44:22 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.1ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:46:57 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 129ms
+
+Sprockets::FileNotFound - couldn't find file 'jquery.ui.all'
+  (in /Users/Sam/Documents/Development/GigggsProduction/ember-rails-devise-demo/app/assets/stylesheets/mainstyles.scss:3):
+  (gem) sprockets-2.2.2/lib/sprockets/context.rb:102:in `resolve'
+  (gem) sprockets-2.2.2/lib/sprockets/context.rb:142:in `require_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/directive_processor.rb:215:in `process_require_directive'
+  (gem) sprockets-2.2.2/lib/sprockets/directive_processor.rb:165:in `block in process_directives'
+  (gem) sprockets-2.2.2/lib/sprockets/directive_processor.rb:163:in `process_directives'
+  (gem) sprockets-2.2.2/lib/sprockets/directive_processor.rb:97:in `evaluate'
+  (gem) tilt-1.3.3/lib/tilt/template.rb:76:in `render'
+  (gem) sprockets-2.2.2/lib/sprockets/context.rb:193:in `block in evaluate'
+  (gem) sprockets-2.2.2/lib/sprockets/context.rb:190:in `evaluate'
+  (gem) sprockets-2.2.2/lib/sprockets/processed_asset.rb:12:in `initialize'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:249:in `block in build_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:270:in `circular_call_protection'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:248:in `build_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/index.rb:93:in `block in build_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/caching.rb:19:in `cache_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/index.rb:92:in `build_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:169:in `find_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/index.rb:60:in `find_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/processed_asset.rb:111:in `block in resolve_dependencies'
+  (gem) sprockets-2.2.2/lib/sprockets/processed_asset.rb:105:in `resolve_dependencies'
+  (gem) sprockets-2.2.2/lib/sprockets/processed_asset.rb:97:in `build_required_assets'
+  (gem) sprockets-2.2.2/lib/sprockets/processed_asset.rb:16:in `initialize'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:249:in `block in build_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:270:in `circular_call_protection'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:248:in `build_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/index.rb:93:in `block in build_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/caching.rb:19:in `cache_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/index.rb:92:in `build_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:169:in `find_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/index.rb:60:in `find_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/bundled_asset.rb:38:in `init_with'
+  (gem) sprockets-2.2.2/lib/sprockets/asset.rb:24:in `from_hash'
+  (gem) sprockets-2.2.2/lib/sprockets/caching.rb:15:in `cache_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/index.rb:92:in `build_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:169:in `find_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/index.rb:60:in `find_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/environment.rb:78:in `find_asset'
+  (gem) sprockets-2.2.2/lib/sprockets/base.rb:177:in `[]'
+  (gem) actionpack-3.2.12/lib/sprockets/helpers/rails_helper.rb:126:in `asset_for'
+  (gem) actionpack-3.2.12/lib/sprockets/helpers/rails_helper.rb:44:in `block in stylesheet_link_tag'
+  (gem) actionpack-3.2.12/lib/sprockets/helpers/rails_helper.rb:43:in `stylesheet_link_tag'
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___533112957163028325_70174266260140'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:145:in `block in render'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+  (gem) actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  (gem) activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/Sam/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  (gem) activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__440001274591738986__process_action__2673731070699258208__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__3643446669864166487__call__609636401778495168__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+
+
+Started POST "/__better_errors/70174275585560/variables" for 127.0.0.1 at 2013-05-31 17:46:57 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:47:45 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled mainstyles.css  (21ms)  (pid 97940)
+Compiled application.css  (87ms)  (pid 97940)
+Completed 200 OK in 182ms (Views: 181.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:47:46 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:53:27 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (13ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 258ms (Views: 257.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:53:28 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.1ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:54:00 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (13ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 237ms (Views: 237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:54:01 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:55:42 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (14ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 216ms (Views: 216.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:55:43 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.2ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:56:06 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:56:07 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:58:31 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled models/gig.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (15ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 251ms (Views: 250.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:58:32 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.1ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/gigs" for 127.0.0.1 at 2013-05-31 17:58:32 +0100
+Processing by GigsController#create as JSON
+  Parameters: {"gig"=>{"name"=>nil, "lat"=>52.283300267496124, "lng"=>-1.5849669004883253, "start"=>nil, "end"=>nil, "email"=>nil, "notes"=>nil, "external_url"=>nil, "user_is_going"=>false, "ticket_url"=>nil, "promoted"=>false, "cat1"=>nil, "cat2"=>nil, "pricelower"=>nil, "pricehigher"=>nil, "user_id"=>nil}}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error - Can't mass-assign protected attributes: user_id:
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:48:in `process_removed_attributes'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:20:in `debug_protected_attribute_removal'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:12:in `sanitize'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security.rb:230:in `sanitize_for_mass_assignment'
+  (gem) activerecord-3.2.12/lib/active_record/attribute_assignment.rb:75:in `assign_attributes'
+  (gem) activerecord-3.2.12/lib/active_record/base.rb:497:in `initialize'
+  app/controllers/gigs_controller.rb:43:in `create'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3795776243377111451__process_action__2514356226439754771__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:35:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__3643446669864166487__call__609636401778495168__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 17:59:43 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (13ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 211ms (Views: 210.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:59:44 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/gigs" for 127.0.0.1 at 2013-05-31 17:59:44 +0100
+Processing by GigsController#create as JSON
+  Parameters: {"gig"=>{"name"=>nil, "lat"=>52.283300267496124, "lng"=>-1.5849669004883253, "start"=>nil, "end"=>nil, "email"=>nil, "notes"=>nil, "external_url"=>nil, "user_is_going"=>false, "ticket_url"=>nil, "promoted"=>false, "cat1"=>nil, "cat2"=>nil, "pricelower"=>nil, "pricehigher"=>nil, "user_id"=>nil}}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error - Can't mass-assign protected attributes: user_id:
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:48:in `process_removed_attributes'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:20:in `debug_protected_attribute_removal'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:12:in `sanitize'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security.rb:230:in `sanitize_for_mass_assignment'
+  (gem) activerecord-3.2.12/lib/active_record/attribute_assignment.rb:75:in `assign_attributes'
+  (gem) activerecord-3.2.12/lib/active_record/base.rb:497:in `initialize'
+  app/controllers/gigs_controller.rb:43:in `create'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3795776243377111451__process_action__2514356226439754771__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:35:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__3643446669864166487__call__609636401778495168__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 17:59:44 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.1ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:00:37 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 18:08:48 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:08:50 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.1ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 18:09:09 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 29ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:09:10 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 18:11:28 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (13ms)  (pid 97940)
+Compiled application.js  (9ms)  (pid 97940)
+Completed 200 OK in 266ms (Views: 266.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:11:29 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.2ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/s_morgan@me.com" for 127.0.0.1 at 2013-05-31 18:12:08 +0100
+
+ActionController::RoutingError (No route matches [GET] "/users/s_morgan@me.com"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 18:16:25 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (13ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 208ms (Views: 208.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:16:26 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/gigs" for 127.0.0.1 at 2013-05-31 18:16:26 +0100
+Processing by GigsController#create as JSON
+  Parameters: {"gig"=>{"name"=>nil, "lat"=>52.45560594380476, "lng"=>-1.9649884740966854, "start"=>nil, "end"=>nil, "email"=>nil, "notes"=>nil, "external_url"=>nil, "user_is_going"=>false, "ticket_url"=>nil, "promoted"=>false, "cat1"=>nil, "cat2"=>nil, "pricelower"=>nil, "pricehigher"=>nil, "user_id"=>nil}}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error - Can't mass-assign protected attributes: user_id:
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:48:in `process_removed_attributes'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:20:in `debug_protected_attribute_removal'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:12:in `sanitize'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security.rb:230:in `sanitize_for_mass_assignment'
+  (gem) activerecord-3.2.12/lib/active_record/attribute_assignment.rb:75:in `assign_attributes'
+  (gem) activerecord-3.2.12/lib/active_record/base.rb:497:in `initialize'
+  app/controllers/gigs_controller.rb:43:in `create'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3795776243377111451__process_action__2514356226439754771__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:35:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__3643446669864166487__call__609636401778495168__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:16:26 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.2ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/s_morgan@me.com" for 127.0.0.1 at 2013-05-31 18:18:15 +0100
+
+ActionController::RoutingError (No route matches [GET] "/users/s_morgan@me.com"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 18:18:47 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled controllers/gigs_new_controller.js  (0ms)  (pid 97940)
+Compiled ember_app.js  (13ms)  (pid 97940)
+Compiled application.js  (5ms)  (pid 97940)
+Completed 200 OK in 203ms (Views: 203.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:18:48 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/gigs" for 127.0.0.1 at 2013-05-31 18:18:49 +0100
+Processing by GigsController#create as JSON
+  Parameters: {"gig"=>{"name"=>nil, "lat"=>42.0531634, "lng"=>-82.5998874, "start"=>nil, "end"=>nil, "email"=>nil, "notes"=>nil, "external_url"=>nil, "user_is_going"=>false, "ticket_url"=>nil, "promoted"=>false, "cat1"=>nil, "cat2"=>nil, "pricelower"=>nil, "pricehigher"=>nil, "user_id"=>nil}}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error - Can't mass-assign protected attributes: user_id:
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:48:in `process_removed_attributes'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:20:in `debug_protected_attribute_removal'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:12:in `sanitize'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security.rb:230:in `sanitize_for_mass_assignment'
+  (gem) activerecord-3.2.12/lib/active_record/attribute_assignment.rb:75:in `assign_attributes'
+  (gem) activerecord-3.2.12/lib/active_record/base.rb:497:in `initialize'
+  app/controllers/gigs_controller.rb:43:in `create'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3795776243377111451__process_action__2514356226439754771__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:35:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__3643446669864166487__call__609636401778495168__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:18:49 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.1ms)[0m  SELECT "gigs".* FROM "gigs" 
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/s_morgan@me.com" for 127.0.0.1 at 2013-05-31 18:19:10 +0100
+
+ActionController::RoutingError (No route matches [GET] "/users/s_morgan@me.com"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.12) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.12) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.12) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.12) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/Sam/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started POST "/users/sign_in.json" for 127.0.0.1 at 2013-05-31 18:22:35 +0100
+Processing by SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"s_morgan@me.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 's_morgan@me.com' LIMIT 1[0m
+Completed 401 Unauthorized in 10ms
+
+
+Started POST "/users.json" for 127.0.0.1 at 2013-05-31 18:22:47 +0100
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"s_morgan@me.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 's_morgan@me.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "users" ("created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "last_sign_in_at", "last_sign_in_ip", "name", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Fri, 31 May 2013 17:22:47 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "s_morgan@me.com"], ["encrypted_password", "$2a$10$5yxN0R2IanLi/oRjj5tJ1uNEw/XGbdwnoXLFu.Mr/K3KYIpoPhfNq"], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["name", nil], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["updated_at", Fri, 31 May 2013 17:22:47 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2013-05-31 17:22:47.187697', "current_sign_in_at" = '2013-05-31 17:22:47.187697', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2013-05-31 17:22:47.188493' WHERE "users"."id" = 2[0m
+  [1m[35m (0.6ms)[0m  commit transaction
+Completed 201 Created in 106ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:22:47 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/gigs" for 127.0.0.1 at 2013-05-31 18:22:47 +0100
+Processing by GigsController#create as JSON
+  Parameters: {"gig"=>{"name"=>nil, "lat"=>52.2851905, "lng"=>-1.520078900000044, "start"=>nil, "end"=>nil, "email"=>nil, "notes"=>nil, "external_url"=>nil, "user_is_going"=>false, "ticket_url"=>nil, "promoted"=>false, "cat1"=>nil, "cat2"=>nil, "pricelower"=>nil, "pricehigher"=>nil, "user_id"=>nil}}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error - Can't mass-assign protected attributes: user_id:
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:48:in `process_removed_attributes'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:20:in `debug_protected_attribute_removal'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security/sanitizer.rb:12:in `sanitize'
+  (gem) activemodel-3.2.12/lib/active_model/mass_assignment_security.rb:230:in `sanitize_for_mass_assignment'
+  (gem) activerecord-3.2.12/lib/active_record/attribute_assignment.rb:75:in `assign_attributes'
+  (gem) activerecord-3.2.12/lib/active_record/base.rb:497:in `initialize'
+  app/controllers/gigs_controller.rb:43:in `create'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__3795776243377111451__process_action__2514356226439754771__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  (gem) activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+  (gem) actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  (gem) journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+  (gem) journey-1.0.4/lib/journey/router.rb:56:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:35:in `block in call'
+  (gem) warden-1.2.1/lib/warden/manager.rb:34:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  (gem) rack-1.4.5/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.4.5/lib/rack/conditionalget.rb:35:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+  (gem) rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+  (gem) activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__3643446669864166487__call__609636401778495168__callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  (gem) activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:71:in `protected_app_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:66:in `better_errors_call'
+  (gem) better_errors-0.6.0/lib/better_errors/middleware.rb:41:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+  (gem) activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+  (gem) railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+  (gem) quiet_assets-1.0.1/lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  (gem) rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  (gem) rack-1.4.5/lib/rack/lock.rb:15:in `call'
+  (gem) actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+  (gem) railties-3.2.12/lib/rails/engine.rb:479:in `call'
+  (gem) railties-3.2.12/lib/rails/application.rb:223:in `call'
+  (gem) rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+  (gem) railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+  (gem) thin-1.5.0/lib/thin/connection.rb:81:in `block in pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:79:in `pre_process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:54:in `process'
+  (gem) thin-1.5.0/lib/thin/connection.rb:39:in `receive_data'
+  (gem) eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+  (gem) thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+  (gem) thin-1.5.0/lib/thin/server.rb:159:in `start'
+  (gem) rack-1.4.5/lib/rack/handler/thin.rb:13:in `run'
+  (gem) rack-1.4.5/lib/rack/server.rb:268:in `start'
+  (gem) railties-3.2.12/lib/rails/commands/server.rb:70:in `start'
+  (gem) railties-3.2.12/lib/rails/commands.rb:55:in `block in <top (required)>'
+  (gem) railties-3.2.12/lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `<main>'
+
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 18:25:37 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 58ms (Views: 57.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 18:25:37 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:25:38 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.1ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 18:28:54 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (1.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 380ms (Views: 377.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:28:55 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[35mGig Load (0.4ms)[0m  SELECT "gigs".* FROM "gigs" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-31 18:29:39 +0100
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.1ms)
+Compiled jquery.ui.core.js  (33ms)  (pid 98729)
+Compiled jquery.ui.widget.js  (0ms)  (pid 98729)
+Compiled jquery.ui.accordion.js  (51ms)  (pid 98729)
+Compiled jquery.ui.position.js  (0ms)  (pid 98729)
+Compiled jquery.ui.menu.js  (12ms)  (pid 98729)
+Compiled jquery.ui.autocomplete.js  (64ms)  (pid 98729)
+Compiled jquery.ui.button.js  (2ms)  (pid 98729)
+Compiled jquery.ui.datepicker.js  (2ms)  (pid 98729)
+Compiled jquery.ui.mouse.js  (2ms)  (pid 98729)
+Compiled jquery.ui.draggable.js  (54ms)  (pid 98729)
+Compiled jquery.ui.resizable.js  (4ms)  (pid 98729)
+Compiled jquery.ui.dialog.js  (83ms)  (pid 98729)
+Compiled jquery.ui.droppable.js  (3ms)  (pid 98729)
+Compiled jquery.ui.effect.js  (0ms)  (pid 98729)
+Compiled jquery.ui.effect-blind.js  (7ms)  (pid 98729)
+Compiled jquery.ui.effect-bounce.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-clip.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-drop.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-explode.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-fade.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-fold.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-highlight.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-pulsate.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-scale.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-shake.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-slide.js  (1ms)  (pid 98729)
+Compiled jquery.ui.effect-transfer.js  (1ms)  (pid 98729)
+Compiled jquery.ui.progressbar.js  (2ms)  (pid 98729)
+Compiled jquery.ui.selectable.js  (2ms)  (pid 98729)
+Compiled jquery.ui.slider.js  (3ms)  (pid 98729)
+Compiled jquery.ui.sortable.js  (3ms)  (pid 98729)
+Compiled jquery.ui.spinner.js  (3ms)  (pid 98729)
+Compiled jquery.ui.tabs.js  (2ms)  (pid 98729)
+Compiled jquery.ui.tooltip.js  (2ms)  (pid 98729)
+Compiled jquery.ui.all.js  (703ms)  (pid 98729)
+Compiled application.js  (719ms)  (pid 98729)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 937ms (Views: 937.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/gigs" for 127.0.0.1 at 2013-05-31 18:29:41 +0100
+Processing by GigsController#index as JSON
+  Parameters: {"gig"=>{}}
+  [1m[36mGig Load (0.2ms)[0m  [1mSELECT "gigs".* FROM "gigs" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)

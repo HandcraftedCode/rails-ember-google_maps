@@ -1,3 +1,4 @@
+//= require_tree ./lib
 //= require ./shortcuts
 //= require ./settings
 //= require ./store

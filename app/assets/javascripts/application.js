@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require bootstrap
 
+//= require jquery.ui.all
+
 // *** Heroku can't find these from the ember-rails gem
 // *** Edit below require statements and remove vendor files when this fixed
 //= require vendor/handlebars-rc3
