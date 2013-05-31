@@ -42,9 +42,6 @@ end
 
 group :test do
   gem "capybara", ">= 2.0.2"
-  gem "capybara-webkit"
-  gem "database_cleaner", ">= 0.9.1"
-  gem "email_spec", ">= 1.4.0"
   gem 'capybara-screenshot'
 end
 

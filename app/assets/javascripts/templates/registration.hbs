@@ -1,17 +1,11 @@
 <div class="form-horizontal">
-  <legend>Registration</legend>
+  <legend>Sign up for free</legend>
     {{#if errorMsg}}
       <div class="alert alert-error">
           {{errorMsg}}
       </div>
     {{/if}}
-  <div class="control-group">
-    <label class="control-label" for="email">Name</label>
-    <div class="controls">
-        {{view Em.TextField valueBinding="name" id="name" action="create"}}
-    </div>
-  </div>
-  <div class="control-group">
+    <div class="control-group">
     <label class="control-label" for="email">Email</label>
     <div class="controls">
       {{view Em.TextField valueBinding="email" id="email" action="create"}}
@@ -22,7 +16,7 @@
     <div class="controls">
       {{view Ember.TextField valueBinding="password" type="password" id="password" action="create"}}
       <br/>
-      (at least 6 chars)
+      (at least 6 characters, please)
     </div>
 
   </div>
@@ -33,7 +27,7 @@
     </div>
   </div>
   <div class="form-actions">
-    <input {{action register}} type="submit" class="btn btn-primary" value="Register" />
+    <input {{action register}} type="submit" class="btn btn-primary" value="Sign up" />
     <input {{action cancel}} type="submit" class="btn" value="Cancel" />
   </div>
 </div>

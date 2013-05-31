@@ -14,6 +14,12 @@ test:
 #see http://devcenter.heroku.com/articles/rails31_heroku_cedar
 production:
   adapter: postgresql
-  database: crambear_production
-  username: postgres
-  password: pwwwwww23
+  encoding: unicode
+  pool: 5
+  database: dc5cfd0gd8l5hu
+  username: mctqpybmccghgi
+  password: NSt8DGmTjboatGGMPT2KuXVoZK
+  host: ec2-54-227-252-82.compute-1.amazonaws.com
+  port: 5432
+
+
