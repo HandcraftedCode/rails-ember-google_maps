@@ -13,7 +13,7 @@ App.NavbarController = Ember.ObjectController.extend
   logout: ->
     log.info "NavbarController handling logout event..."
     me = @
-    App.logout -> me.transitionToRoute "home"
+    App.logout -> me.transitionToRoute "gigs"
 
 
 App.WelcomeMsgController = Ember.ObjectController.extend

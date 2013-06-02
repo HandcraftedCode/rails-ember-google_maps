@@ -1,5 +1,23 @@
-<h1>Gigs</h1>
+<div class="span9" id="theMap">
+	{{outlet map}}
+	<div class="flip"> 
+        <div class="card"> 
+            <div class="face front"> 
+                {{outlet gigModal}}
+            </div> 
+            <div class="face back"> 
+                {{outlet editGig}}
+            </div> 
+        </div> 
+    </div> 
+</div>
 
-<p>Your content here.</p>
+<div id="mobile-header">
+    <a id="responsive-menu-button" href="#sidr-main">Menu</a>
+</div>
 
-{{outlet}}
+<div class="span3" id="theSidebar">
+	{{outlet sidebar}}
+</div>
+
+<div class="modalHover" id="authWindow">{{outlet auth}}</div>

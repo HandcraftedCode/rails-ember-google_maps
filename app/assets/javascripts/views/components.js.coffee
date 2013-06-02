@@ -6,3 +6,5 @@ App.MenuItem = Ember.View.extend
   attributeBindings: ['href', 'hidden']
   hidden: "hidden"
 
+
+

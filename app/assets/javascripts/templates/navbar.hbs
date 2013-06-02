@@ -9,8 +9,8 @@
         {{#if authenticated}}
             <button class="btn" {{action logout}}>Logout</button>
         {{else}}
-            {{view App.MenuItem href="#/login" label="Login" }}
-            {{view App.MenuItem href="#/registration" label="Register"}}
+            {{view App.MenuItem href="#/gigs/login" label="Login" }}
+            {{view App.MenuItem href="#/gigs/registration" label="Register"}}
         {{/if}}
       </div>
     </div>

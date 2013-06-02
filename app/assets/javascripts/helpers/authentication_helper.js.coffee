@@ -9,7 +9,7 @@ App.login = (route) ->
       log.log "Login Msg #{data.user.dummy_msg}"
       App.currentUser =  data.user
       App.LoginStateManager.transitionTo "authenticated"
-      route.transitionTo 'home'
+      route.transitionTo 'gigs'
     error: (jqXHR, textStatus, errorThrown) ->
       if jqXHR.status==401
         route.controllerFor('login').set "errorMsg", "That email/password combo didn't work.  Please try again"
@@ -26,7 +26,6 @@ App.register = (route) ->
     #would be nice if could do something like this
     #user: @currentModel.getJSON
     #(perhaps there is, but couldn't find)
-      "user[name]": route.currentModel.name
       "user[email]": route.currentModel.email
       "user[password]": route.currentModel.password
       "user[password_confirmation]": route.currentModel.password_confirmation

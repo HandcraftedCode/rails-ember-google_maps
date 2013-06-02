@@ -2,34 +2,50 @@
 ## They are grouped together here for ease of exposition
 
 App.Router.map ->
-  @route "home"
-  @route "about"
-  @route "login"
-  @route "registration"
+	@route "home"
+	@route "about"
+	@resource "gigs",
+		path: "/gigs"
+	, ->
+		@route "login"
+		@route "registration"
 
 
 App.IndexRoute = Ember.Route.extend
-  redirect: -> @transitionTo 'home'
+  redirect: -> @transitionTo 'gigs'
 
 
-App.LoginRoute = Ember.Route.extend
+App.GigsLoginRoute = Ember.Route.extend
   model: -> Ember.Object.create()
+  renderTemplate: ->
+    @render "login",
+      outlet: "auth"
   setupController: (controller, model) ->
     controller.set "errorMsg", ""
+    $("#authWindow").fadeIn()
   events:
     cancel: ->
       log.info "cancelling login"
-      @transitionTo 'home'
+      $("#authWindow").fadeOut()
+      @transitionTo 'gigs'
     login: ->
       log.info "Logging in..."
       App.login this
+      $("#authWindow").fadeOut()
 
-App.RegistrationRoute = Ember.Route.extend
+
+
+App.GigsRegistrationRoute = Ember.Route.extend
   model: -> Ember.Object.create()
+  renderTemplate: ->
+    @render "registration",
+      outlet: "auth"
   events:
     register: ->
       log.info "Registering..."
       App.register this
+      $("#authWindow").fadeOut()
     cancel: ->
       log.info "cancelling registration"
-      @transitionTo 'home'
+      $("#authWindow").fadeOut()
+      @transitionTo 'gigs'
