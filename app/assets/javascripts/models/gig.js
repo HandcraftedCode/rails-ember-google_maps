@@ -9,10 +9,10 @@ App.Gig = DS.Model.extend({
   externalUrl: DS.attr('string'),
   userIsGoing: DS.attr('boolean'),
   ticketUrl: DS.attr('string'),
-  promoted: DS.attr('boolean'),
   cat1: DS.attr('string'),
   cat2: DS.attr('string'),
   pricelower: DS.attr('number'),
   pricehigher: DS.attr('number'),
-  user_id: DS.attr('string')
+  user_id: DS.attr('string'),
+  media_files: DS.hasMany('App.MediaFile')
 });

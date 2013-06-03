@@ -3,9 +3,10 @@ App.GigsRoute = Ember.Route.extend({
     return App.Gig.find();
   },
  
-
+ 
   renderTemplate: function() {
   	this._super();
+  	$('.flip').fadeOut();
 	  this.render('sidebar', {
 	  	outlet: 'sidebar',
 	  	into: 'gigs',

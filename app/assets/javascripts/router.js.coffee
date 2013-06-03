@@ -9,6 +9,8 @@ App.Router.map ->
 	, ->
 		@route "login"
 		@route "registration"
+		@resource "gig",
+			path: "/:gig_id"
 
 
 App.IndexRoute = Ember.Route.extend
@@ -40,6 +42,8 @@ App.GigsRegistrationRoute = Ember.Route.extend
   renderTemplate: ->
     @render "registration",
       outlet: "auth"
+  setupController: (controller, model) ->
+  	$("#authWindow").fadeIn()
   events:
     register: ->
       log.info "Registering..."

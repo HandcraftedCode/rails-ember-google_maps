@@ -32,7 +32,7 @@ App.register = (route) ->
     success: (data) ->
       App.currentUser = data.user
       App.LoginStateManager.transitionTo "authenticated"
-      route.transitionTo 'home'
+      route.transitionTo 'gigs'
     error: (jqXHR, textStatus, errorThrown) ->
       route.controllerFor('registration').set "errorMsg", "That email/password combo didn't work.  Please try again"
 

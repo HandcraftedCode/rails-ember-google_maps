@@ -1,0 +1,19 @@
+= form_for @media_file do |f|
+  - if @media_file.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@media_file.errors.count, "error")} prohibited this media_file from being saved:"
+      %ul
+        - @media_file.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :src
+    = f.text_field :src
+  .field
+    = f.label :format
+    = f.text_field :format
+  .field
+    = f.label :gig_id
+    = f.number_field :gig_id
+  .actions
+    = f.submit 'Save'

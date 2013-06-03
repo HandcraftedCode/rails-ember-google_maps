@@ -2,13 +2,21 @@ App.GigsNewController = Em.ObjectController.extend({
 needs: ['gigs', 'filter', 'selector', 'index', 'currentUser', 'users'],
 currentUser: null,
 init: function() {
-	this.set('currentUser', this.get('controllers.currentUser.content'));
+	this.set('currentUser', App.currentUser);
 	console.log('the current user is ' + this.get('currentUser'));
 	this.startEditing();
 	console.log('the content of the GigsNewController is now ' + this.content);
 	if($.cookie('tharGig')) {
 	console.log('the previous content of the GigsNewController was ' + $.cookie('tharGig'));}
 },
+
+authStateBinding: Ember.Binding.oneWay('App.LoginStateManager.currentState'),
+  authState: null,
+  authenticated: (function() {
+    log.info("GigsNewController authent");
+    this.setGigId();
+    return this.get("authState") === App.LoginStateManager.authenticated;
+  }).property("authState"),
 
 clearForm: function() {
 	this.stopEditing();
@@ -44,7 +52,9 @@ clearForm: function() {
 	    	var z = null;
     	};
     console.log('z is ' + z);
-    if(z !== null) {
+    
+/* COOKIE STUFF FOLLOWS, perhaps not necessary in an SPA.
+if(z !== null) {
     //if it exists, set its properties to the current model and commit the transaction with the new user_id
     
     var that = this;
@@ -62,9 +72,10 @@ clearForm: function() {
 			cat2: z.cat2,
 			pricelower: z.pricelower,
 			pricehigher: z.pricehigher,
-			user_id: that.get('currentUser.id')
+			user_id: App.currentUser.id
 			
 		}));
+
 		console.log('the content of the GigsNewController has been updated to include the previous Gig, so its now ' + JSON.stringify(this.get('content').getProperties('name', 'notes', 'lat', 'lng', 'external_url', 'start', 'end', 'ticket_url', 'cat1', 'cat2', 'pricelower', 'pricehigher', 'user_id')));
 		//save the transaction, which will call transitionAfterSave.
 		this.save();
@@ -74,11 +85,16 @@ clearForm: function() {
 	}
 	else {
 	//if it doesn't exist, create a new, blank record for the user to start editing.
+*/
     
     this.set('content', this.transaction.createRecord(App.Gig, {}));
-    if(this.get('currentUser.id')) {
+    console.log('no previous cookie gig, so a blank one instead. Content is ' + this.get('content'));
+    this.setGigId();
+  },
+  setGigId: function() {
+	  if(App.currentUser) {
     	//if theres a user logged in, set the model user_id to the current user_id
-	    this.set('content.user_id', this.get('currentUser.id'));
+	    this.set('content.user_id', App.currentUser.id);
 	    console.log('the user_id property for the new gig is ' + this.get('content.user_id'));
     }
     else {
@@ -86,8 +102,7 @@ clearForm: function() {
 	    this.set('content.user_id', 'pending');
 	    console.log('the user_id property for the new gig is ' + this.get('content.user_id'));
     };
-    console.log('no previous cookie gig, so a blank one instead. Content is ' + this.get('content'));
-  }},
+  }.observes(App.currentUser),
 controlla: this,
   stopEditing: function() {
   console.log('stopEditing called');
@@ -115,7 +130,7 @@ controlla: this,
   cancel: function() {
   	$.cookie('tharGig', null);
     this.stopEditing();
-    this.transitionToRoute('gigs.index');
+    this.transitionToRoute('gigs');
   },
 
   addMediaFile: function(sauce) {
@@ -132,6 +147,7 @@ controlla: this,
   theGig: null,
   
   doAuth: function() {
+  var controlling = this;
   console.log('this is ' + this);
   console.log(this.get('lat'));
   console.log(this.get('lng'));
@@ -153,18 +169,16 @@ controlla: this,
 	    	$.ajax({url: requestUrl,
 	    		dataType: 'json',
 	    		statusCode: {
-		    		404: function() {
-			    		console.log('no user found with response = 404, fading in sign-up form');
-					    $('#loginForm').fadeOut();
-					    $('#signUpForm').fadeIn();
-					    $('#signUpEmailField').val(e)
+		    		422: function() {
+			    		console.log('no user found with response = 422, transitioning to registration route');
+					    controlling.transitionToRoute('gigs.registration');
+					    $('#emailLogIn').val(e);
 			    		}
 			    	},
 		    	success: function(data) {
 				    	console.log('found user with email ' + e);
-				    	$('#signUpForm').fadeOut();
-				    	$('#loginForm').fadeIn();
-						$('#loginEmailField').val(e);
+				    	controlling.transitionToRoute('gigs.login');
+						$('#Registeremail').val(e);
 						
 					},	
 			    error:  function(xhr) {

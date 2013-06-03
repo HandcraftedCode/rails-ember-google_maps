@@ -1,5 +1,38 @@
-<h1>Gig</h1>
-
-<p>Your content here.</p>
-
-{{outlet}}
+<div class="iOverlay">
+	<div class="mediaArea">
+		
+	</div>
+	<div class="infoArea">
+		<div class="pertinentArea">
+			<h3>Are you going?</h3> {{view Ember.Checkbox checkedBinding="user_is_going"}}
+		</div>
+		<div class="titleArea">
+			<h1 class="titular">{{name}}</h1>
+			<h2 class="catar">{{cat1}}</h2>
+			<h2 class="catar">{{cat2}}</h2>
+		</div>
+		<div class="importantDeets">
+			<h3 class="time">{{start}}</h3> to <h3 class="time">{{end}}</h3><br>
+			<h4 class="price">{{pricelower}}</h4> to <h4 class="price">{{pricehigher}}</h4>
+		</div>
+		<div class="notes">
+			<p class="notar">{{notes}}</p>
+		</div>
+		<div class="contactUser">
+			
+		</div>
+	</div>
+</div>
+{{#if canEdit}}
+<div class="well well-small">
+<div {{action toEdit contact target="view"  }} id="toEditWrap">
+  Edit {{name}}
+</div>
+  <a class="btn btn-danger" {{action destroyRecord}}>Remove</a>
+</div>
+{{else}}
+{{view App.MenuItem href="#/gigs/login" label="Log in to edit" }}
+{{/if}}
+<div>
+	<a class="btn btn-danger" {{action toClose target="view"}}>Close modal</a>
+</div>

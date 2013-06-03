@@ -13,7 +13,9 @@ App.NavbarController = Ember.ObjectController.extend
   logout: ->
     log.info "NavbarController handling logout event..."
     me = @
-    App.logout -> me.transitionToRoute "gigs"
+    App.logout -> 
+    	me.transitionToRoute "gigs"
+    	$('.flip').fadeOut()
 
 
 App.WelcomeMsgController = Ember.ObjectController.extend

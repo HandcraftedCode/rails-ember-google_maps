@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Src:
+  = @media_file.src
+%p
+  %b Format:
+  = @media_file.format
+%p
+  %b Gig:
+  = @media_file.gig_id
+
+= link_to 'Edit', edit_media_file_path(@media_file)
+\|
+= link_to 'Back', media_files_path

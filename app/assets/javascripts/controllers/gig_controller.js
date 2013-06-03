@@ -1,30 +1,27 @@
 App.GigController = Em.ObjectController.extend({
-init: function() {
-	  console.log('In the GigController !');
-	  this.signedInChanged();
-	  console.log('the content of the Gigcontroller is now ' + this.get('content'));
-	  console.log('the current gigs id is ' + this.get('content.id'));
-	  console.log('current users id from the gigController is ' + this.get('controllers.gigs.controllers.currentUser.content.id')) 
+
+  activeGig: function() {
   },
-  
   isEditing: false,
   needs: ['gigs', 'edit', 'currentUser'],
 signedIn: null,
-  currentUserIsEditor: function() {
+  canEdit: function() {
   console.log('checking if current user is editor');
-  if(this.get('controllers.currentUser.content.id') !== undefined) {
+  if(App.currentUser) {
   	console.log('current user is a user');
-  	console.log('the id of the gig is ' + this.get('content.user_id') + ' and the id of the user is ' + this.get('controllers.currentUser.content.id'));
-	  if(this.get('content.user_id') === this.get('controllers.currentUser.content.id'))
+  	console.log('the user_id of the gig is ' + this.get('model.user_id') + ' and the id of the user is ' + App.currentUser.id);
+	  if(this.get('model.user_id') === App.currentUser.id.toString())
 		  {console.log('current user is the owner');
-		  return true}
+		  return true;
+		  }
 		  else {
 		  console.log('current user is not the owner');
 		  return false}
+	console.log('canEdit: ' + this.get('canEdit'))
 	}
   else {console.log('current user has an undefined id');
   return false}
-  }.observes('content'),
+  }.property('controllers.gigs.activeGigId', App.currentUser),
   
   signedInChanged: function() {
   console.log('signedIn changed');

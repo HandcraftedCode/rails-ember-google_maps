@@ -16,6 +16,7 @@ markerArray:null,
     
   },
   extractMarker: function(obj) {
+  if (obj.get('id') !== null) {
   var that = this;
   
         console.log('obj from which marker is being extracted is ' + obj);
@@ -29,24 +30,25 @@ markerArray:null,
 	  	  map = this.get('map'); //end variable assignment
 	  	  //make the gigModal fade in on click
 	  	 
-	  var latLng = new google.maps.LatLng(lat, lng);
-	  var marker = new google.maps.Marker({
-	  		position: latLng,
-	  		map: map,
-	  		title: name,
-	  		id: id,
-	  		
-  		});
-  		google.maps.event.addListener(marker, 'click', function () {
-	  		infowindow.setContent(iwContent);
-	  		infowindow.open(map, marker);
-	  		//document.getElementById('seeMoreId').addEventListener('click', that.loadGigWindow(id), false)
-	  		});	
-	  		google.maps.event.addListener(marker, 'dblclick', function(event) {
-            
-          });
-  		console.log('A marker was created!');
-  		this.get('markerArray').push(marker);
+		  	 var latLng = new google.maps.LatLng(lat, lng);
+		  	 var marker = new google.maps.Marker({
+			  		position: latLng,
+			  		map: map,
+			  		title: name,
+			  		id: id,
+			  		
+		  		});
+		  		google.maps.event.addListener(marker, 'click', function () {
+			  		infowindow.setContent(iwContent);
+			  		infowindow.open(map, marker);
+			  		//document.getElementById('seeMoreId').addEventListener('click', that.loadGigWindow(id), false)
+			  		});	
+			  		google.maps.event.addListener(marker, 'dblclick', function(event) {
+		            
+		          });
+		  		console.log('A marker was created!');
+		  		this.get('markerArray').push(marker);
+		  	} else {console.log('there are gigs with ids of null on the stack')}
   		
   		
   },
@@ -170,8 +172,11 @@ didLoad: function() {
   var controller = this;
   console.log('the content of the mapcontroller is now ' + contentNow + '.');
   contentNow.forEach(function(item) {
-  controller.extractMarker(item);
-   console.log('markerArray now contains ' + controller.get('markerArray'));
+  if(item.get('id') !== null) {
+	  controller.extractMarker(item);
+	   console.log('markerArray now contains ' + controller.get('markerArray'));
+	 }
+	 else {console.log('item found with null id, not processed')}
   });
 	  },
 	  
