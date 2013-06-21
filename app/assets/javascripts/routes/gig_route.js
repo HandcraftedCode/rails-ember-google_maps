@@ -29,7 +29,7 @@ App.GigRoute = Ember.Route.extend({
       outlet: 'gigModal'
     });
     console.log('gig template loaded');
-    $('.flip').fadeIn();
+    
     console.log('modal now visible')
   },
 

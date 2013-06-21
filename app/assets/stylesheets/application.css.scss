@@ -12,6 +12,9 @@
  *= require_tree .
 */
 
+$theBlue: #22baf3;
+$theOrange: #f19615;
+
 .content {
   background-color: #eee;
   padding: 20px;
@@ -60,6 +63,7 @@ box-shadow: 0 0 0px 0px rgba(0,0,0,0);
 .inputWrap input:focus {
 background:transparent;
 	-webkit-appearance: none;
+	outline: none !important;
 border-radius: 0;
 border:none;
 color: #f0f0f0;
@@ -71,6 +75,7 @@ box-shadow: 0 0 0px 0px rgba(0,0,0,0);
 background:transparent;
 	-webkit-appearance: none;
 border-radius: 0;
+outline: none !important;
 border:none;
 color: #f0f0f0;
 -webkit-box-shadow: 0 0 0px 0px rgba(0,0,0,0);
@@ -86,8 +91,12 @@ box-shadow: 0 0 0px 0px rgba(0,0,0,0);
   }
 }
 .form-horizontal .controls {
-margin-left: 0px;
+margin-left: 0px !important;
 }
+.container-fluid {
+	padding: 0 !important;
+}
+
 #main {
   
 
@@ -177,14 +186,14 @@ right:0;}
 		position:relative;
 		display:inline-block !important;
 		width:49%;
-		padding-top:30px;
+		padding-top:0px;
 		margin:0;
 		box-sizing: border-box;
 		height:100%;
 		text-align:center;
+		line-height:40px;
 		&:hover {
-			background-color: #f7ad19;
-			color:black;
+			
 		}
 	}
 }
@@ -204,12 +213,15 @@ right:0;}
 
 #theSidebar {
 	height:100%;
-	padding:0px 34px 30px 0px;
+	padding:20px 20px 0px 20px;
 	overflow-y: scroll;
 	text-align:left;
-	float:right;
-	background-color: #4f4f4f;
-	
+	margin-left: none !important;
+	background-color: rgba( $theBlue, 0.9 );
+	top: 86px;
+position: absolute;
+z-index: 999999;
+box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
 -webkit-transition: all .5s ease;
 -moz-transition: all .5s ease;
 -ms-transition: all .5s ease;
@@ -225,7 +237,6 @@ transition: all .5s ease;
 	margin-left: 0;
 	float:right;
 	overflow: hidden;
-	
 }
 .bigBoy {
 	height:100%;
@@ -251,11 +262,8 @@ transition: all .5s ease;
 }
 
 .mainSwitch {
-	font-family: "Helvetica Neue", Helvetica;
-	text-transform: uppercase;
-	font-weight: 100;
-	font-size: 1.3em;
-	color:#aaa;
+	
+	color:#777;
 	-webkit-transition: all .5s ease;
 -moz-transition: all .5s ease;
 -ms-transition: all .5s ease;
@@ -264,8 +272,7 @@ transition: all .5s ease;
 }
 
 .switchOn {
-	color: #f0f0f0;
-	font-size:1.6em;
+	color: #fff;
 }
 #uploadImage {
 	position: relative;
@@ -328,16 +335,18 @@ transition: all .5s ease;
 
 
 .flip {
-  -webkit-perspective: 800;
-   width: 60%;
-   height: 74%;
-   top:50%;
-   padding:20px;
-   margin-top:-16%;
-   left:50%;
-   display:none;
-   margin-left:-30%;
-    position: absolute;
+ -webkit-perspective: 800;
+width: 60%;
+height: 74%;
+top: 10%;
+padding: 20px;
+left: 50%;
+display: none;
+margin-left: -15%;
+position: absolute;
+overflow: scroll;
+background: #fff;
+box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
     @media screen and (max-width: 540px) {
 		height:100%;
 		width:100%;
@@ -378,4 +387,55 @@ transition: all .5s ease;
     color: black;
     cursor: pointer;
 }
+.ember-application {
+overflow:hidden;}
 
+.navbuttons {
+	margin-top:10px;
+	position:absolute;
+	z-index: 9999;
+right: 4%;
+	.leftNavButton {
+		margin-right:10px;
+	}
+}
+.closeButton {
+	position: absolute;
+right: 0px;
+}
+
+#mainTitle {
+	text-align: center;
+padding: 0px 10px 0px 10px;
+font-weight: 100;
+margin-bottom: 18px;
+color:white;
+	-webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+-ms-transition: all .5s ease;
+-o-transition: all .5s ease;
+transition: all .5s ease;
+&:hover {
+	color: darken(white, 4%)
+}
+}
+#newPos {
+	
+	position:absolute;
+}
+.navbarArea {
+	height:60px;
+	margin-top:-60px;
+}
+.navbarInner {
+background:transparent;
+	margin-top:60px;
+	overflow: visible;
+height: 60px;
+position: absolute;
+z-index: 999999;
+width: 100%;
+}
+.segment {
+	background: $theOrange;
+}

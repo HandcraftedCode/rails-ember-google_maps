@@ -1,13 +1,33 @@
-{{view}}
-<form {{action save on="submit"}} class="form-horizontal">
-
-  {{partial "gig_edit_fields"}}
-  <div id="creationButtons" class="form-actions">
-  	{{#if authenticated}}
-  		{{submitButton "Create"}}
-  	{{else}}
-  		<button class="btn" {{action doAuth}}>Create and Sign up</button>
-  	{{/if}}
-  	<button class="btn" {{action clearForm}}>Clear and start again</button> 
-  	</div>
-</form>
+{{#view}}
+	<form {{action save on="submit"}} class="form-horizontal">	
+	  {{partial "gig_edit_fields"}}
+	  	{{#if authenticated}}
+			{{#each attachments}}
+				<div class="attachments">
+					<img {{bindAttr src="src"}} height="200px" width="200px" />
+					<a class="btn" {{action removeMediaFile this}}><i class="icon-minus-sign"></i> Remove</a>
+				</div>
+			{{else}}
+				You can add media files using the controls below.
+			{{/each}}
+				<div class="control-group">
+					 <label class="control-label" for="">Media</label><br>
+					 <div class="controls">
+					  	{{view App.Uploader2}}
+					 </div>
+				</div>
+		{{else}}
+			{{view App.MenuItem href="#/gigs/registration" label="Sign Up"}} or {{view App.MenuItem href="#/gigs/login" label="Log in"}} to add media (it's free).
+		{{/if}}
+			</div>
+		</div>
+	  <div id="creationButtons" class="form-actions">
+	  	{{#if authenticated}}
+	  		{{submitButton "Create"}}
+	  	{{else}}
+	  		<button class="btn" {{action doAuth}}>Create and Sign up</button>
+	  	{{/if}}
+	  	<button class="btn" {{action clearForm}}>Clear and start again</button> 
+	  	</div>
+	</form>
+{{/view}}

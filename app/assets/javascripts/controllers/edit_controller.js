@@ -3,16 +3,16 @@ App.EditController = Em.ObjectController.extend({
 
   startEditing: function() {
   	
-    // add the gig and its associated media files to a local transaction
+    // add the gig and its associated attachments files to a local transaction
     var gig = this.get('content');
     var transaction = gig.get('store').transaction();
     transaction.add(gig);
     console.log('transaction is equal to ' + transaction);
-    gig.get('mediaFiles').forEach(function(mediaFile) {
-      transaction.add(mediaFile);
+    gig.get('attachments').forEach(function(attachment) {
+      transaction.add(attachment);
     });
     this.transaction = transaction;
-  }, //this is messy, each gig now has only one phone number (each gig has only one associated details entry). Fix this, or risk optimisation problems.
+  }, //this is messy, each gig now has only one attachment (each gig has only one associated details entry). Fix this, or risk optimisation problems.
 
   stopEditing: function() {
     // rollback the local transaction if it hasn't already been cleared
@@ -32,14 +32,15 @@ App.EditController = Em.ObjectController.extend({
   cancel: function() {
     this.get('controllers.gig').stopEditing();
     this.transitionToRoute('gig');
+    $('.card').removeClass('flipped');
   },
 
   addMediaFile: function() {
-    this.get('content.mediaFiles').createRecord();
+    this.get('content.attachments').createRecord();
   },
 
-  removeMediaFile: function(mediaFile) {
-    mediaFile.deleteRecord();
+  removeMediaFile: function(attachment) {
+    attachment.deleteRecord();
   },
   
   toGig: function() {

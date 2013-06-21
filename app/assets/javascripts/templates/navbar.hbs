@@ -1,18 +1,21 @@
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container-fluid">
-      <div class="brand strong">{{#linkTo gigs}}Gigggs{{/linkTo}}</div>
-      <ul class="nav">
-          <li>{{#linkTo about}}About{{/linkTo}}</li>
-      </ul>
-      <div class="btn-group pull-right">
+
+    <div class="container-fluid navbarArea" style="overflow:visible">
+    	<div class="row navbarInner" style="overflow:visible">
+    	<div class="span4 segment" style="overflow:visible">
+      <div class="brand strong">{{#linkTo gigs}}
+      <h1 id="mainTitle" class="title">Gigggs</h1>
+      {{/linkTo}}</div>
+      </div>
+      <div class="span8 buttonsFluidContainer" style="overflow:visible">
+      <div class="btn-group pull-right navbuttons">
+      	{{#linkTo about}}<button class="btn leftNavButton">About</btn>{{/linkTo}}
         {{#if authenticated}}
             <button class="btn" {{action logout}}>Logout</button>
         {{else}}
-            {{view App.MenuItem href="#/gigs/login" label="Login" }}
+            {{view App.MenuItem href="#/gigs/login" label="Login" class="leftNavButton" }}
             {{view App.MenuItem href="#/gigs/registration" label="Register"}}
         {{/if}}
       </div>
+      </div>
     </div>
-  </div>
-</div>
+ 

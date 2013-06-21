@@ -1,5 +1,4 @@
 EmberRailsDevise::Application.routes.draw do
-  resources :media_files
 
 
   resources :gigs

@@ -4,6 +4,7 @@ gem "devise", ">= 2.2.3"
 gem "cancan", ">= 1.6.8"
 gem "rolify", ">= 3.2.0"
 gem "active_model_serializers"
+gem 'strong_parameters'
 
 gem 'jquery-rails'
 gem 'ember-rails'

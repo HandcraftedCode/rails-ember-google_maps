@@ -29,6 +29,10 @@ contentDidChange: function () {
             };
             google.maps.visualRefresh = true;
             var map = new google.maps.Map(document.getElementById("map-canvas"),mapOptions);
+            google.maps.event.addDomListener(map, 'tilesloaded', function(){
+    if($('#newPos').length==0){
+        $('div.gmnoprint').last().parent().wrap('<div id="newPos" />');
+    }});
             this.set('map',map); //save for future updates
             this.set('controller.map',map);//saved in the controller
             console.log('to confirm: mapcontroller now has map set as ' + this.get('controller.map'));

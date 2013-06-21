@@ -11,6 +11,8 @@ App.Router.map ->
 		@route "registration"
 		@resource "gig",
 			path: "/:gig_id"
+		, ->
+			@route "edit"
 
 
 App.IndexRoute = Ember.Route.extend

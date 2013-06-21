@@ -1,6 +1,7 @@
 App.GigsNewController = Em.ObjectController.extend({
 needs: ['gigs', 'filter', 'selector', 'index', 'currentUser', 'users'],
 currentUser: null,
+controlla: this,
 init: function() {
 	this.set('currentUser', App.currentUser);
 	console.log('the current user is ' + this.get('currentUser'));
@@ -8,6 +9,27 @@ init: function() {
 	console.log('the content of the GigsNewController is now ' + this.content);
 	if($.cookie('tharGig')) {
 	console.log('the previous content of the GigsNewController was ' + $.cookie('tharGig'));}
+	POLICY_JSON = { "expiration": "2020-12-01T12:00:00.000Z",
+	            "conditions": [
+	            {"bucket": "gigggs"},
+	            ["starts-with", "$key", "events/"],
+	            {"acl": "public-read"},                           
+	            ["starts-with", "$Content-Type", ""],
+	            ["content-length-range", 0, 524288000]
+	            ]
+	          };
+	
+	
+	    var secret = App.s3Secret;
+	    var policyBase64 = Base64.encode(JSON.stringify(POLICY_JSON));
+	    console.log ( policyBase64 )
+	
+	    var sig = b64_hmac_sha1(secret, policyBase64);
+	    var signature = sig + "=";
+	    console.log(signature);
+	   this.set('signature', signature);
+	   this.set('policy64', policyBase64);
+
 },
 
 authStateBinding: Ember.Binding.oneWay('App.LoginStateManager.currentState'),
@@ -133,16 +155,14 @@ controlla: this,
     this.transitionToRoute('gigs');
   },
 
-  addMediaFile: function(sauce) {
+  addMediaFile: function() {
   	var that = this;
-    this.get('content.mediaFiles').createRecord({
-	    gig_id: that.get('content.id'),
-	    src: sauce
+    this.get('content.attachments').createRecord({
     })
     },
 
-  removeMediaFile: function(mediaFile) {
-    mediaFile.deleteRecord();
+  removeMediaFile: function(attachment) {
+    attachment.deleteRecord();
   },
   theGig: null,
   
@@ -204,6 +224,113 @@ controlla: this,
 
   contract: function() {
     this.set('isExpanded', false);
+  },
+  
+  signature: null,
+	policy64: null,
+	curKey: null,
+	curType: null,
+
+	attach: function(sauce, type, gig) {
+		console.log('sauce is ' + sauce + ', type is ' + type + ' and gig is ' + gig);
+		var attachment = this.get('content.attachments').createRecord(App.Attachment, {
+			src: sauce,
+			format: type,
+			gigId: gig
+		});
+		
+		return attachment;
+	},
+	
+	uploadFile: function() {
+	
+
+    var file = document.getElementById('file').files[0];
+    var filetype = getFileExtension(file.name);
+    console.log('name of file is ' + file.name);
+    console.log('filetype is ' + filetype);
+    this.set('curType', filetype);
+    
+    var fd = new FormData();
+    var key;
+    if(this.currentUser) {
+    	key = "events/" + (new Date).getTime() + '&userid=' + this.currentUser.id + '&guid=' + generateGUID();
+    } else {
+	  	key = "events/" + (new Date).getTime() + "&userid=null" + '&guid=' + generateGUID();
+    };
+    this.set('curKey', key);
+    
+    
+    
+    console.log('curKey is ' + this.get('curKey'));
+    var sig = this.get('signature');
+    console.log(sig);
+    fd.append('key', key);
+    fd.append('acl', 'public-read'); 
+    fd.append('Content-Type', file.type);      
+    fd.append('AWSAccessKeyId', 'AKIAJH774J5VMJRDKWDA');
+    fd.append('policy', this.get('policy64'))
+    fd.append('signature', this.get('signature'));
+
+    fd.append("file",file);
+    
+    var xhr;
+		if (window.XMLHttpRequest)
+		  {// code for IE7+, Firefox, Chrome, Opera, Safari
+		  xhr=new XMLHttpRequest();
+		  }
+		else
+		  {// code for IE6, IE5
+		  xhr=new ActiveXObject("Microsoft.XMLHTTP");
+		  }
+		  
+		  var controlla = this;
+
+    xhr.upload.addEventListener("progress", this.uploadProgress, false);
+    xhr.addEventListener("load", function(evt) {
+    	console.log(controlla);
+	    controlla.get('content.attachments').createRecord({
+		    src: 'https://s3.amazonaws.com/gigggs/' + controlla.curKey,
+		    format: controlla.curType,
+		    gig: controlla.content.id
+	    });
+	    /*console.log('src of attachmentsFile is ' + attachmentsFile.get('src'));
+	    console.log('format of attachmentsFile is ' + attachmentsFile.get('format'));
+	    console.log('gigId of attachmentsFile is ' + attachmentsFile.get('gigId'));*/
+	    console.log('current attachments files are ' + controlla.get('content.attachments'));
+	    
+    }, false);
+    xhr.addEventListener("error", this.uploadFailed, false);
+    xhr.addEventListener("abort", this.uploadCanceled, false);
+
+    xhr.open('POST', 'https://gigggs.s3.amazonaws.com/', true); //MUST BE LAST LINE BEFORE YOU SEND 
+
+    xhr.send(fd);
+  },
+  
+  uploadProgress: function(evt) {
+    if (evt.lengthComputable) {
+      var percentComplete = Math.round(evt.loaded * 100 / evt.total);
+      document.getElementById('progressNumber').innerHTML = percentComplete.toString() + '%';
+    }
+    else {
+      document.getElementById('progressNumber').innerHTML = 'unable to compute';
+    }
+  },
+
+  uploadComplete: function(evt) {
+  
+    /* This event is raised when the server sends back a response, although this is being handled in the uploadFile function for now. */
+    
+  },
+
+  uploadFailed: function(evt) {
+    alert("There was an error attempting to upload the file." + evt);
+  },
+
+  uploadCanceled: function(evt) {
+    alert("The upload has been canceled by the user or the browser dropped the connection.");
   }
+
   
 });

@@ -1,8 +1,19 @@
 <div class="iOverlay">
-	<div class="mediaArea">
-		
-	</div>
+
+	{{#if attachments}}
+		<div class="mediaArea">
+			{{#each attachments}}
+				<div class="attachments theSlider">
+					<img {{bindAttr src="src"}} height="200px" width="200px" />
+				</div>
+			{{/each}}
+		</div>
+	{{/if}}
+	
 	<div class="infoArea">
+		<div class="controlsArea">
+			<a class="closeButton" {{action toClose target="view"}}><i class="icon-remove"></i></a>
+		</div>
 		<div class="pertinentArea">
 			<h3>Are you going?</h3> {{view Ember.Checkbox checkedBinding="user_is_going"}}
 		</div>
@@ -34,5 +45,4 @@
 {{view App.MenuItem href="#/gigs/login" label="Log in to edit" }}
 {{/if}}
 <div>
-	<a class="btn btn-danger" {{action toClose target="view"}}>Close modal</a>
 </div>

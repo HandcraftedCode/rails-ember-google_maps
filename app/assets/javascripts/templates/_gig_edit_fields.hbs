@@ -26,39 +26,43 @@
 	<div class="control-group">
 	  <label class="control-label" for="location">Where?</label><br>
 	  <div class="inputWrap">
-	  <div class="controls">
-		<input id="location" />
-	</div>
+	  	<div class="controls">
+			<input id="location" />
+		</div>
 	  </div>
 	  <div class="maparea">
 	  </div>
 	</div>
 	<div class="control-group">
 		<label class="control-label" for="start">When do you start?</label><br>
-		<div class="inputWrap">
-		<div class="controls input-append date">
-			{{view App.DatePicker valueBinding="App.GigsNewController.start"}}
-			<span class="add-on">
-				<i class="icon-calendar"></i>
-			</span>
-		</div>
-		</div>
+			<div class="inputWrap">
+				<div class="controls input-append date">
+					{{view App.DatePicker valueBinding="App.GigsNewController.start"}}
+					<span class="add-on">
+						<i class="icon-calendar"></i>
+					</span>
+				</div>
+			</div>
 		<div class="inputWrap" style="margin-top:4px;">
-		<div class="controls" id="datepickerTimeTooltip">
-			{{view Ember.TextField id="start_time"}}
-		</div>
+			<div class="controls" id="datepickerTimeTooltip">
+				{{view Ember.TextField id="start_time"}}
+			</div>
 		</div>
 	</div>
 	<div class="control-group">
 		<label class="control-label" for="start">When do you finish?</label><br>
+		<div class="inputWrap">
 		<div class="controls input-append date">
 			{{view App.DatePicker valueBinding="App.GigsNewController.end"}}
 			<span class="add-on">
 				<i class="icon-calendar"></i>
 			</span>
 		</div>
+		</div>
+		<div class="inputWrap" style="margin-top:4px;">
 		<div class="controls" id="datepickerTimeTooltip2">
 			{{view Ember.TextField id="end_time"}}
+		</div>
 		</div>
 	</div>
 	<div class="control-group">
@@ -73,22 +77,8 @@
 		
 			  </div>
 	</div>
-	   <div class="control-group">
-		  <label class="control-label" for="">Media</label><br>
-		  <div class="controls">
-			{{#each mediaFile in mediaFiles}}
-				<img {{bindAttr src="mediaFile.src"}} width="200" height="100"/>
-				<a class="btn" {{action removeMediaFile this}}><i class="icon-minus-sign"></i>Remove</a>
-			{{/each}}
-			{{#view App.PreviewUploadImage name="logo_image" contentBinding="App.ContactsNewController"}}
-					{{view view.previewImageView width="200" height="100" srcBinding="src"}}
-					{{view view.fileField}}
-			{{/view}}
-			<a class="btn" {{action addMediaFile}}><i class="icon-plus-sign"></i>Add Media files</a>
-		  </div>
-		</div>
-
-	  	
+	
+		  	
 	  	
 	<!-- here's the subgroup. It contains less important gig properties, so it is hidden by default. Users can expand it by clicking on the 'Add more Detail...' link below the creation screen (but above the email which is critical for signup). Add {{bindAttr class="deets:notHere:here"}} later on -->
 	

@@ -14,5 +14,5 @@ App.Gig = DS.Model.extend({
   pricelower: DS.attr('number'),
   pricehigher: DS.attr('number'),
   user_id: DS.attr('string'),
-  media_files: DS.hasMany('App.MediaFile')
+  attachments: DS.hasMany('App.Attachment')
 });
