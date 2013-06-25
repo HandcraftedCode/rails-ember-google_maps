@@ -19,6 +19,7 @@ sortProperties: ['user_id', 'name', 'lat', 'lng', 'cat1', 'cat2', 'cat3', 'notes
   
   
   add: null, //defined as nothing, so 'find' will be automatically displayed.
+  slidOut: null, //defined as null so '.readyOut' will be automatically added.
   
   /*
   <---------------->
@@ -97,8 +98,24 @@ sortProperties: ['user_id', 'name', 'lat', 'lng', 'cat1', 'cat2', 'cat3', 'notes
   
   openIW: function(gigName) {
 	  console.log('openIW called with gig name = ' + gigName)
-  }
+  },
   
+  toggleSlide: function() {
+	  console.log('someone called toggleSlide');
+	  if (this.get('slidOut') === null) {
+	  this.set('slidOut', true);
+	  $('#newPos').css('left', '5%');
+	   $('#newPos').css('top', '78px');
+	  
+	  }
+	  else {
+	  this.set('slidOut', null);
+	  $('#newPos').css('left', '90%');
+	   $('#newPos').css('top', '60px');
+	   
+
+	  }
+  }
   
   
 });

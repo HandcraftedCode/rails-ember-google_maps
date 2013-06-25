@@ -24,8 +24,20 @@
 
 //= require_self
 //= require ember_app
-App = Ember.Application.create();
 //= require_tree .
+
+App = Ember.Application.create();
+
+//set up resrc asynchronously (http://www.resrc.it/docs/)
+  var config = {
+    locale: "uk",
+    bandwidthDetect: true,
+    resrcOnLoad: true,
+    resrcOnResize: true,
+    resrcOnPinch: true,
+    resrcOnDoubleTap: true
+  }
+  var c=!1,a=document.createElement("script");a.src="//www.resrc.it/resrc.js";a.type="text/javascript";a.async="true";a.onload=a.onreadystatechange=function(){var a=this.readyState;if(!(c||a&&"complete"!=a&&"loaded"!=a)){c=!0;try{resrc.load(config)}catch(b){}}};var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);
 
 // Put jQuery UI inside its own namespace
 JQ = Ember.Namespace.create();

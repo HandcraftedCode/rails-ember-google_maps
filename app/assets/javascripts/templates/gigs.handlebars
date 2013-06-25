@@ -36,8 +36,20 @@
 
 <div class="row-fluid" style="margin-top:-100%;">
 	
-	<div class="span4" id="theSidebar">
-	
+	<div {{bindAttr class=":span4 :sideShow slidOut:readyIn:readyOut slidOut:sideHidden:sideShow"}} id="theSidebar">
+		<div id="pullButton" {{action toggleSlide target="controller"}} {{bindAttr class=":menuButton slidOut:sideShow:sideHidden"}}>
+			{{#if slidOut}}
+			<i class="icon-chevron-right icon-white"></i>
+			{{else}}
+			<i class="icon-chevron-left icon-white"></i>
+			{{/if}}
+		</div>
+		<div id="searchButton" {{action toFind target="controller"}} {{bindAttr class=":menuButton slidOut:sideShow:sideHidden"}}>
+			<i class="icon-search icon-white"></i>
+		</div>
+		<div id="addButton" {{action toAdd target="controller"}} {{bindAttr class=":menuButton slidOut:sideShow:sideHidden"}}>
+			<i class="icon-plus icon-white"></i>
+		</div>
 		{{outlet sidebar}}
 		
 	</div>

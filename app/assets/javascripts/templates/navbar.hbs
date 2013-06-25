@@ -8,12 +8,12 @@
       </div>
       <div class="span8 buttonsFluidContainer" style="overflow:visible">
       <div class="btn-group pull-right navbuttons">
-      	{{#linkTo about}}<button class="btn leftNavButton">About</btn>{{/linkTo}}
+      	{{#linkTo about classNames="btn leftNavButton uiButton"}}About{{/linkTo}}
         {{#if authenticated}}
-            <button class="btn" {{action logout}}>Logout</button>
+            <button class="btn uiButton" {{action logout}}>Logout</button>
         {{else}}
-            {{view App.MenuItem href="#/gigs/login" label="Login" class="leftNavButton" }}
-            {{view App.MenuItem href="#/gigs/registration" label="Register"}}
+            {{view App.MenuItem href="#/gigs/login" label="Login" class="leftNavButton uiButton" }}
+            {{view App.MenuItem href="#/gigs/registration" label="Register" class="uiButton"}}
         {{/if}}
       </div>
       </div>

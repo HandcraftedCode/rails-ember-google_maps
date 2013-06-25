@@ -2,11 +2,14 @@
 
 	{{#if attachments}}
 		<div class="mediaArea">
-			{{#each attachments}}
-				<div class="attachments theSlider">
-					<img {{bindAttr src="src"}} height="200px" width="200px" />
-				</div>
-			{{/each}}
+			<div class="banner">
+			    <ul>
+			    	{{#each attachments}}
+			        <li><img {{bindAttr src="src"}} /></li>
+			        {{/each}}
+			        <li>This is a slide showing the weather for the gig.</li>
+			    </ul>
+			</div>
 		</div>
 	{{/if}}
 	

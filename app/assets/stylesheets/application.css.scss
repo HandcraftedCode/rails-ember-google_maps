@@ -12,8 +12,20 @@
  *= require_tree .
 */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600);
+
 $theBlue: #22baf3;
 $theOrange: #f19615;
+
+.sideShow {
+	background-color: rgba($theBlue, 0.95) !important;
+	box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1) !important;
+}
+
+.sideHidden {
+	background-color: none !important;
+	box-shadow: none !important;
+}
 
 .content {
   background-color: #eee;
@@ -215,18 +227,63 @@ right:0;}
 	height:100%;
 	padding:20px 20px 0px 20px;
 	overflow-y: scroll;
+	overflow-x: visible;
 	text-align:left;
 	margin-left: none !important;
-	background-color: rgba( $theBlue, 0.9 );
+
 	top: 86px;
 position: absolute;
 z-index: 999999;
-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
+
 -webkit-transition: all .5s ease;
 -moz-transition: all .5s ease;
 -ms-transition: all .5s ease;
 -o-transition: all .5s ease;
 transition: all .5s ease;
+}
+
+.readyOut {
+	left:0;
+}
+
+.readyIn {
+	left:-30%;
+	@media screen and (max-width: 540px) {
+	left:-28%;
+	}
+}
+
+
+.menuButton {
+	position:absolute;
+	text-align:center;
+	cursor:pointer;
+	right:0;
+	height:28px;
+	width:28px;
+	line-height:28px;
+	background: transparent;
+	i {
+		color:white;
+	}
+	&:hover {
+		background:rgba($theOrange, 0.8);
+		i {
+			color:black;
+		}
+	}
+}
+
+#pullButton {
+	top:0;
+}
+
+#searchButton {
+	top:28px;
+}
+
+#addButton {
+	top:56px;
 }
 
 .alpha { margin-left: 0; }
@@ -335,18 +392,19 @@ transition: all .5s ease;
 
 
 .flip {
- -webkit-perspective: 800;
-width: 60%;
-height: 74%;
-top: 10%;
-padding: 20px;
-left: 50%;
-display: none;
-margin-left: -15%;
-position: absolute;
-overflow: scroll;
-background: #fff;
-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
+	-webkit-perspective: 800;
+	width: 60%;
+	height: 74%;
+	top: 10%;
+	padding: 20px;
+	left: 50%;
+	display: none;
+	margin-left: -15%;
+	position: absolute;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: #fff;
+	box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
     @media screen and (max-width: 540px) {
 		height:100%;
 		width:100%;
@@ -375,14 +433,14 @@ box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
     text-align: center;
 }
 .flip .card .front {
-  position: absolute;
-  z-index: 1;
+  	position: absolute;
+  	z-index: 1;
     background: white;
     color: black;
     cursor: pointer;
 }
 .flip .card .back {
-  -webkit-transform: rotatey(-180deg);
+  	-webkit-transform: rotatey(-180deg);
     background: white;
     color: black;
     cursor: pointer;
@@ -401,41 +459,77 @@ right: 4%;
 }
 .closeButton {
 	position: absolute;
-right: 0px;
+	right: 0px;
 }
 
 #mainTitle {
 	text-align: center;
-padding: 0px 10px 0px 10px;
-font-weight: 100;
-margin-bottom: 18px;
-color:white;
+	padding: 0px 10px 0px 10px;
+	font-weight: 100;
+	margin-bottom: 18px;
+	color:white;
 	-webkit-transition: all .5s ease;
--moz-transition: all .5s ease;
--ms-transition: all .5s ease;
--o-transition: all .5s ease;
-transition: all .5s ease;
-&:hover {
-	color: darken(white, 4%)
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	&:hover {
+		color: darken(white, 4%)
+	}
 }
+.uiButton {
+	background: $theOrange;
+	border-radius:none;
+	box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
 }
 #newPos {
-	
 	position:absolute;
+	left: 90%;
+	top:60px;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
 }
 .navbarArea {
 	height:60px;
 	margin-top:-60px;
 }
 .navbarInner {
-background:transparent;
+	background:transparent;
 	margin-top:60px;
 	overflow: visible;
-height: 60px;
-position: absolute;
-z-index: 999999;
-width: 100%;
+	height: 60px;
+	position: absolute;
+	z-index: 999999;
+	width: 100%;
 }
 .segment {
 	background: $theOrange;
 }
+
+/* SLIDER STYLES */
+
+.mediaArea {
+width: 107%;
+height: 300px;
+margin-left: -20px;
+max-height:300px;
+overflow:hidden;
+margin-top: -20px;
+}
+
+.banner { 
+	position: relative;
+	overflow: auto; 
+	min-height:300px;
+	max-height:300px;
+}
+.banner li { 
+	list-style: none; 
+}
+.banner ul li { 
+	float: left; 
+}
+        
